@@ -1,1 +1,2 @@
-throw Error('This is an Error')
+const foo = document.getElementById('#doesnotexist');
+console.log(`Foo: ${foo.style}`);
